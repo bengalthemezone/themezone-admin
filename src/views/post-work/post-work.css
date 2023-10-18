@@ -1,0 +1,27 @@
+.jobDetailContainer {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    text-align: center;
+}
+.itemContainer .label{
+    width: 250px;
+    font-size: 12px;
+}
+.itemContainer .label-data {
+    font-weight: bold;
+    width: 700px;
+}
+.skillItemList li {
+    list-style-type: none;
+    background: gray;
+    color: white;
+    width: 80px;
+    margin-top: 10px;
+}

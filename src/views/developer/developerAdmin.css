@@ -1,0 +1,62 @@
+.personalInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+.adminGridContainer {
+  margin: 80px;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+.itemContainer .label {
+  width: 150px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+.label-answer {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.skillSectionContainer {
+  margin: 10px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skillHeader {
+  font-size: 20px;
+  font-weight: bold;
+}
+.skillName {
+  font-size: 16px;
+  text-decoration: italic;
+}
+.pictureTabContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.pictureTabContainer .img {
+  height: 150px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 25px;
+}
+.pictureTabContainer .pictureBtnArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.developerProfilePic {
+  height: 100px;
+  width: 100px;
+}

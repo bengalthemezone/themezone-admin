@@ -1,0 +1,35 @@
+.personalInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+.adminGridContainer {
+    margin: 80px;
+}
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+}
+.itemContainer .label {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.label-answer {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.questionListContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.questionNumber {
+    font-size: 20px;
+    font-weight: bold;
+}
+.questionText,.relatedToText {
+    font-size: 20px;
+}

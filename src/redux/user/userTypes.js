@@ -1,0 +1,2 @@
+export const GET_PROFILES = "GET_PROFILES";
+export const LOADING_DATA = "LOADING_DATA";
